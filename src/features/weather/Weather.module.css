@@ -1,0 +1,41 @@
+.box {
+  background-color: #ffd867;
+  border: solid 3px black;
+  border-radius: 25px;
+  width: 60%;
+  height: auto;
+}
+.maxImg {
+  max-width: 180px;
+  max-height: 180px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.title > #location {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#temp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8em;
+}
+
+.background {
+  background-color: #ffd867;
+}
+.box .upper {
+  border-radius: 25px 25px 0 0;
+}
+.box .below {
+  border-radius: 0 0 25px 25px;
+}
